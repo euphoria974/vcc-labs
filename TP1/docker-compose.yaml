@@ -1,0 +1,7 @@
+services:
+  addition:
+    build: ./add-service
+  calculator:
+    build: ./calc-service
+    ports:
+    - "50000:80"
