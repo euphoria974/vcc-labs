@@ -1,6 +1,12 @@
 services:
   addition:
-    build: ./add-service
+    build: ./sum-service
+  substraction:
+    build: ./sub-service
+  multiplication:
+    build: ./mul-service
+  division:
+    build: ./div-service
   calculator:
     build: ./calc-service
     ports:
