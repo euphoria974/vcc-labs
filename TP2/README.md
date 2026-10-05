@@ -55,4 +55,4 @@ Le redimensionnement d'une machine virtuelle permet d'assurer l'élasticité des
 
 3. Dans quels contextes un administrateur système préférera-t-il créer une nouvelle machine à partir d’un snapshot plutôt que de repartir d’une image vierge ?
 
-
+Il existe plusieurs cas où un administrateur préférera créer une machine à partir d'un snapshot. Dans le cas où une machine doit être restaurée à un état précédent, un snapshot permet de le faire. De plus, le snapshot permet de créer facilement des templates de machines virtuelles avec certaines configurations et fichiers déjà présents, permettant de gagner du temps dans la configuration de nouvelles machines. Finalement, nous pouvons les utiliser pour répliquer une machine virtuelle afin de tester des modifications sur une copie de la machine sans affecter la machine originale.
